@@ -44,6 +44,3 @@ This app fetches live weather data based on city input or user's geolocation, di
 - Responsive design for mobile
 
 ---
-
-## 📁 Folder Structure
-
