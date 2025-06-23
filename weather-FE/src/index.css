@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* 🍃 Animated Cloud Strip */
+@keyframes clouds {
+  0% { transform: translateX(0); }
+  100% { transform: translateX(-50%); }
+}
+
+.bg-clouds {
+  background-image: url('https://i.ibb.co/tmN46cJ/cloud-strip.png');
+  background-size: contain;
+  background-repeat: repeat-x;
+}
+
+.animate-clouds {
+  animation: clouds 60s linear infinite;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(10px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+.animate-fade-in {
+  animation: fadeIn 0.8s ease-out both;
+}
